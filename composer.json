@@ -1,0 +1,16 @@
+{
+  "name": "extrachill/ai-bot-for-bbpress",
+  "description": "AI Bot for bbPress",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4",
+    "wordpress/wp-ai-client": "^0.2",
+    "wordpress/abilities-api": "^0.1"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
